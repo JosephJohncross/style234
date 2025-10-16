@@ -1,0 +1,16 @@
+{
+  "name": "Style234 - Celebrate Nigerian Style",
+  "short_name": "Style234",
+  "description": "Discover authentic Nigerian fashion, beauty, and lifestyle products",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#029338",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
