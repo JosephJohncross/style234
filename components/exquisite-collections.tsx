@@ -32,7 +32,7 @@ const collections = [
 
 export function ExquisiteCollections() {
   return (
-    <section className="py-16 md:py-20">
+    <section className="py-16 md:py-20 md:px-10">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <h3 className="text-left mb-6 font-medium text-[20px] text-[#595959] md:text-[30.28px]">Explore Our Exquisite Collections</h3>

@@ -26,7 +26,7 @@ const images = [
 
 export function WearTheStory() {
   return (
-    <section className="py-16 md:py-20 bg-white">
+    <section className="py-16 md:px-10 md:py-20 bg-white">
       <div className="container max-w-screen-xl mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Content */}

@@ -80,7 +80,7 @@ export function HeroCarousel() {
         </div>
 
         {/* Centered Image Below */}
-        <div className="flex-1 z-[1] flex items-start -translate-y-10 w-full pb-4 pt-2 z-[0]">
+        <div className="flex-1 flex items-start -translate-y-10 w-full pb-4 pt-2 z-[0]">
           <div className="w-full">
             <div className="relative w-full aspect-[3/4] ">
               <AnimatePresence mode="wait">
@@ -128,7 +128,7 @@ export function HeroCarousel() {
         </AnimatePresence>
 
         {/* Text Content Overlay on Left */}
-        <div className="relative h-full container mx-auto px-4">
+        <div className="relative h-full container mx-auto px-4 pl-10">
           <div className="h-full flex items-center">
             <div className="w-1/2 space-y-3">
               

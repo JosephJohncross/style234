@@ -62,7 +62,7 @@ const products: Product[] = [
 export function BeautyProduct() {
   return (
 
-    <div className="container mx-auto px-4 mb-20 md:mb-24">
+    <div className="container mx-auto md:px-10 mb-20 md:mb-24">
         {/* Section Header */}
         <div className="flex justify-between items-center mb-6">
             <h3 className="text-left font-medium text-[20px] text-[#595959] md:text-[30.28px]">Beauty Products for You</h3>

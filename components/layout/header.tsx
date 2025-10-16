@@ -24,7 +24,7 @@ export function Header({ variant = "default", showAuth = true }: HeaderProps) {
   const [cartCount] = useState(2);
 
   return (
-    <header className="border-b sticky top-0 bg-white z-50 shadow-sm">
+    <header className="border-b sticky md:px-10 top-0 bg-white z-50 shadow-sm">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="" className="flex items-center hover:opacity-80 transition-opacity">

@@ -50,7 +50,7 @@ export default function Home() {
       </div>
 
       {/* Collections Preview */}
-      <section className="container mx-auto px-4 md:py-16 md:pt-6">
+      <section className="container md:px-10 mx-auto px-4 md:py-16 md:pt-6">
         <h3 className="text-left mb-6 font-medium text-[20px] text-[#595959] md:text-[30.28px]">Recent Collections</h3>
 
         {/* Category Carousel */}
