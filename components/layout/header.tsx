@@ -54,7 +54,7 @@ export function Header({ variant = "default", showAuth = true }: HeaderProps) {
                   onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                   className="flex items-center gap-1 text-[#595959] text-base hover:text-[#029338] transition-colors font-normal py-2"
                 >
-                  WHAT'S NEW
+                  WHAT&#39;S NEW
                   <ChevronDown className={`h-4 w-4 transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} />
                 </button>
                 
@@ -164,7 +164,7 @@ export function Header({ variant = "default", showAuth = true }: HeaderProps) {
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                 className="flex items-center justify-between w-full text-[#595959] text-base hover:text-[#029338] transition-colors font-normal py-2"
               >
-                WHAT'S NEW
+                WHAT&#39;S NEW
                 <ChevronDown className={`h-4 w-4 transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
               {isDropdownOpen && (

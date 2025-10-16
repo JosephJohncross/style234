@@ -146,7 +146,7 @@ export function Testimonials() {
 
             {/* Quote */}
             <blockquote className="text-[#444444] text-base leading-[21px] md:text-lg md:leading-[28px] md:max-w-lg mx-auto px-4">
-              "{currentTestimonial.quote}"
+            &#34;{currentTestimonial.quote}&#34;
             </blockquote>
           </div>
 
