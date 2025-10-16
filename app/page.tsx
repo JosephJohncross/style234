@@ -15,7 +15,7 @@ export default function Home() {
       {/* Hero Carousel Section */}
       <HeroCarousel />
 
-      <div className="max-w-xs relative sm:max-w-sm md:max-w-screen-md mx-auto py-10 border bg-white border-gray-200 shadow-lg -translate-y-44 md:-translate-y-8 rounded-[3rem] px-6 font-ubuntu">
+      <div className="max-w-xs relative sm:max-w-sm md:max-w-screen-md mx-auto py-10 border bg-white border-gray-200 shadow-lg -translate-y-44 md:-translate-y-8 rounded-[3rem] px-6 z-[10000] font-ubuntu">
         <div className="text-center ">
             <p className="text-primary md:text-[64px] md:leading-[78px] text-[38.4px] leading-[48px] font-bold">Our Product Collection</p>
             <p className="mt-3 text-[#737373] text-[12px] leading-[19px] md:text-[19px] md:leading-[32px]">Discover authentic fashion, beauty, and accessories handcrafted by Africa&#39;s finest creators where heritage meets contemporary style.</p>
